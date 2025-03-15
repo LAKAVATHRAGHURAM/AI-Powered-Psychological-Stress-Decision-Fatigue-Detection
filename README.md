@@ -13,15 +13,23 @@ This project focuses on detecting psychological stress and decision fatigue usin
 
 ## Project Structure
 ```
-├── speech_samples/     # Speech stress data
-├── text_samples/       # Text-based stress data
-├── speech_stress_model.ipynb  # Jupyter notebook for speech model
-├── text_stress_model.ipynb    # Jupyter notebook for text model
-├── speech_model.keras         # Trained speech model
-├── text_model.h5              # Trained text model
-├── speech_label_encoder.pkl   # Label encoder for speech model
-├── text_label_encoder.pkl     # Label encoder for text model
-├── tokenizer.pkl              # Tokenizer for text model
+├── data/
+│   ├── speech_samples/         # Raw speech stress data
+│   ├── text_samples/           # Raw text-based stress data
+│   ├── processed_speech/       # Processed speech features
+│   ├── processed_text/         # Processed text features
+│
+├── models/
+│   ├── speech_model.keras      # Trained speech model
+│   ├── text_model.h5           # Trained text model
+│   ├── speech_label_encoder.pkl # Label encoder for speech model
+│   ├── text_label_encoder.pkl   # Label encoder for text model
+│   ├── tokenizer.pkl           # Tokenizer for text model
+│
+├── notebooks/
+│   ├── speech_stress_model.ipynb  # Jupyter notebook for speech model
+│   ├── text_stress_model.ipynb    # Jupyter notebook for text model
+│
 ├── requirements.txt    # Required Python packages
 ├── README.md           # Project documentation
 ```

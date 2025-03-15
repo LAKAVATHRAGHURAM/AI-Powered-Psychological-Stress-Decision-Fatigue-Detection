@@ -16,10 +16,8 @@ This project focuses on detecting psychological stress and decision fatigue usin
 ├── data/
 │   ├── speech_samples/         # Raw speech stress data
 │   ├── text_samples/           # Raw text-based stress data
-│   ├── processed_speech/       # Processed speech features
-│   ├── processed_text/         # Processed text features
 │
-├── models/
+├── model/
 │   ├── speech_model.keras      # Trained speech model
 │   ├── text_model.h5           # Trained text model
 │   ├── speech_label_encoder.pkl # Label encoder for speech model

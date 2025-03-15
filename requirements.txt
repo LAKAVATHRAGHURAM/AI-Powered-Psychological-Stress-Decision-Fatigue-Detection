@@ -1,1 +1,8 @@
 
+numpy
+librosa
+matplotlib
+tensorflow
+scikit-learn
+pandas
+pickle-mixin

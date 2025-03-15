@@ -29,8 +29,7 @@ This project focuses on detecting psychological stress and decision fatigue usin
 ## Installation
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-username/ai-stress-detection.git
-   cd ai-stress-detection
+   git clone https://github.com/LAKAVATHRAGHURAM/AI-Powered-Psychological-Stress-Decision-Fatigue-Detection.git
    ```
 2. Install dependencies:
    ```sh
@@ -62,13 +61,6 @@ The dataset includes:
 - Improved accuracy with additional text analysis techniques
 
 ## Contributors
-- **Lakavath Raghuram** (IIIT Kottayam) – Project Lead
+- **Lakavath Raghuram** (IIIT Kottayam) 
 
-## License
-This project is licensed under the MIT License.
-
-## Acknowledgments
-- Open-source AI tools and libraries
-
-For further details, check the documentation and Jupyter notebooks in the repository.
 
